@@ -18,4 +18,8 @@ hidl_interface {
         "vendor.qti.hardware.wifi.supplicant@2.2",
     ],
     gen_java: true,
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.wifi",
+    ],
 }
